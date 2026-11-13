@@ -1,0 +1,58 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+Loading required package: xts
+Loading required package: zoo
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Loading required package: TTR
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+AAPL 250 rows
+$mean
+[1] 172.549
+
+$median
+[1] 175.475
+
+$mode
+[1] 163.76 172.07 173.75 175.84 177.97 178.85 179.80
+
+$standard_deviation
+[1] 17.33167
+
+MSFT 250 rows
+$mean
+[1] 313.951
+
+$median
+[1] 324.65
+
+$mode
+[1] 305.41 328.39 330.11 369.67
+
+$standard_deviation
+[1] 40.97586
+
+RY.TO 250 rows
+$mean
+[1] 126.6382
+
+$median
+[1] 127.225
+
+$mode
+ [1] 121.24 122.02 122.62 125.51 125.88 127.48 127.70 128.12 128.62 130.17
+[11] 130.43 134.69 135.30 138.54
+
+$standard_deviation
+[1] 7.223065
+

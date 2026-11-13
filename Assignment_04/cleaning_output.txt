@@ -1,0 +1,62 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+BEFORE
+    OrderID           Product       Quantity           Price       
+ Min.   :  1.0   Length   :610   Min.   :  -5.00   Min.   :  5.90  
+ 1st Qu.:152.2   N.unique :  3   1st Qu.:   2.50   1st Qu.: 50.09  
+ Median :301.5   N.blank  :  0   Median :  15.00   Median :102.23  
+ Mean   :301.4   Min.nchar:  6   Mean   :  58.93   Mean   :104.90  
+ 3rd Qu.:451.8   Max.nchar: 11   3rd Qu.:  25.00   3rd Qu.:154.76  
+ Max.   :600.0   NAs      : 49   Max.   :1000.00   Max.   :300.00  
+                                 NAs    :95                        
+      Customer  
+ Length   :610  
+ N.unique :  8  
+ N.blank  :  0  
+ Min.nchar:  3  
+ Max.nchar:  7  
+                
+                
+ OrderID  Product Quantity    Price Customer 
+       0       49       95        0        0 
+Exact duplicate rows: 9 
+
+AFTER
+    OrderID           Product       Quantity         Price       
+ Min.   :  1.0   Length   :328   Min.   : 2.00   Min.   :  5.90  
+ 1st Qu.:152.8   N.unique :  3   1st Qu.: 5.00   1st Qu.: 50.46  
+ Median :297.5   N.blank  :  0   Median :15.00   Median :113.59  
+ Mean   :297.9   Min.nchar:  6   Mean   :14.23   Mean   :107.70  
+ 3rd Qu.:441.2   Max.nchar: 11   3rd Qu.:25.00   3rd Qu.:157.39  
+ Max.   :599.0                   Max.   :30.00   Max.   :300.00  
+      Customer   Needs_review       Revenue      
+ Length   :328   Mode :logical   Min.   :  15.1  
+ N.unique :  8   FALSE:328       1st Qu.: 351.5  
+ N.blank  :  0                   Median : 929.4  
+ Min.nchar:  3                   Mean   :1516.1  
+ Max.nchar:  7                   3rd Qu.:2468.8  
+                                 Max.   :5698.5  
+     OrderID      Product     Quantity        Price     Customer Needs_review 
+           0            0            0            0            0            0 
+     Revenue 
+           0 
+Quantity upper fence: 67.5 
+Rows retained: 328 
+Rows requiring review: 273 
+
+     Gadget Thingamajig      Widget 
+        106         105         117 

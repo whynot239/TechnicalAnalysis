@@ -1,0 +1,84 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+Loading required package: xts
+Loading required package: zoo
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Loading required package: TTR
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+
+ AAPL 
+        Date   Open   High    Low  Close    Volume
+1 2023-01-03 130.28 130.90 124.17 125.07 112117500
+2 2023-01-04 126.89 128.66 125.08 126.36  89113600
+3 2023-01-05 127.13 127.77 124.76 125.02  80962700
+4 2023-01-06 126.01 130.29 124.89 129.62  87754700
+5 2023-01-09 130.47 133.41 129.89 130.15  70790800
+6 2023-01-10 130.26 131.26 128.12 130.73  63896200
+$mean
+[1] 172.549
+
+$median
+[1] 175.475
+
+$mode
+[1] 163.76 172.07 173.75 175.84 177.97 178.85 179.80
+
+$standard_deviation
+[1] 17.33167
+
+
+ MSFT 
+        Date   Open   High    Low  Close   Volume
+1 2023-01-03 243.08 245.75 237.40 239.58 25740000
+2 2023-01-04 232.28 232.87 225.96 229.10 50623400
+3 2023-01-05 227.20 227.55 221.76 222.31 39585600
+4 2023-01-06 223.00 225.76 219.35 224.93 43613600
+5 2023-01-09 226.45 231.24 226.41 227.12 27369800
+6 2023-01-10 227.76 231.31 227.33 228.85 27033900
+$mean
+[1] 313.951
+
+$median
+[1] 324.65
+
+$mode
+[1] 305.41 328.39 330.11 369.67
+
+$standard_deviation
+[1] 40.97586
+
+
+ RY.TO 
+        Date   Open   High    Low  Close  Volume
+1 2023-01-03 128.41 128.86 127.36 128.03 4506700
+2 2023-01-04 128.50 130.05 128.14 129.17 3282500
+3 2023-01-05 128.02 129.03 127.87 128.79 2219400
+4 2023-01-06 129.02 130.47 128.82 130.43 3559400
+5 2023-01-09 130.82 131.83 130.57 131.40 3719700
+6 2023-01-10 131.51 133.00 131.17 132.90 4505300
+$mean
+[1] 126.6382
+
+$median
+[1] 127.225
+
+$mode
+ [1] 121.24 122.02 122.62 125.51 125.88 127.48 127.70 128.12 128.62 130.17
+[11] 130.43 134.69 135.30 138.54
+
+$standard_deviation
+[1] 7.223065
+
+null device 
+          1 
