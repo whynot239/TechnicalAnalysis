@@ -14,4 +14,4 @@ On 13 November 2026, the app was started locally using R 4.6.2. In the browser, 
 
 ## AI assistance and submission
 
-ChatGPT through Codex helped write, debug and test the code and draft this report. The public GitHub repository URL must be added after upload. Devon should review the code and results before submitting.
+ChatGPT through Codex helped write, debug and test the code and draft this report. The public repository is https://github.com/whynot239/TechnicalAnalysis. Devon should review the code and results before submitting.

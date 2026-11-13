@@ -6,4 +6,4 @@ The AI-assisted `app.R` retrieves Yahoo historical data, offers daily, weekly an
 
 Install the required packages, open this folder in RStudio and run `shiny::runApp()`. Test each input, symbol, chart type, frequency, indicator toggle, short date range, unavailable ticker and network failure. Capture actual screenshots and fix issues found. Data retrieval requires an internet connection.
 
-The actual browser screenshot is `dashboard_screenshot.png`. Add the code to the appropriate folder of `TechnicalAnalysis` and put the public repository URL on the cover page. Repository evidence remains to be added; expand testing before submitting.
+The actual browser screenshot is `dashboard_screenshot.png`. The code is in https://github.com/whynot239/TechnicalAnalysis. Put this public repository URL on the cover page and expand testing before submitting.

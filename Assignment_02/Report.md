@@ -24,4 +24,4 @@ Install `quantmod` and `TTR`, set the working directory to this folder, and run 
 
 ## AI assistance and limitations
 
-ChatGPT through Codex drafted the code and this report and ran the R command shown in the test log on 13 November 2026. Devon should inspect the code and verify selected calculations. A genuine GitHub URL, RStudio installation evidence and screenshots of the required setup steps must be added after those steps are completed; none is claimed here.
+ChatGPT through Codex drafted the code and this report and ran the R command shown in the test log on 13 November 2026. The repository is https://github.com/whynot239/TechnicalAnalysis. Devon should inspect the code and verify selected calculations. RStudio installation evidence and screenshots of the required setup steps remain outstanding.

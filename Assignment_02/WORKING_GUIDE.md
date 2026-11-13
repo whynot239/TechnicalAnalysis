@@ -6,4 +6,4 @@ The included script reads the symbols in `portfolio.txt`, downloads daily market
 
 Install R, RStudio, quantmod and TTR. Open this folder in RStudio, run `technical_analysis.R`, then run the two commands at its end. Check the downloaded data, 20-observation moving average, sample standard deviation and how mode handles prices with no repetition. Capture genuine screenshots of setup, installation, output and repository organization.
 
-The required report must describe the actual setup and include those screenshots. Create a `TechnicalAnalysis` GitHub repository with a subfolder for each course assignment; include your actual repository URL on the Word cover page. Make your own review and record the actual AI assistance and validation performed.
+The required report must describe the actual setup and include those screenshots. The repository is https://github.com/whynot239/TechnicalAnalysis. Include that link on the Word cover page. Make your own review and record the actual AI assistance and validation performed.
